@@ -1,0 +1,17 @@
+/*https://stackoverflow.com/questions/21233033/css3-marquee-effect*/
+@keyframes marquee {
+    0%   { transform: translate(0, 0); }
+    100% { transform: translate(-125%, 0); }
+}
+
+@keyframes to_own_player {
+	0%   { transform: translate(0, 0); }
+	25%  { transform: translate(10%, 0); }
+	100% { transform: translate(-400%, 0); }
+}
+
+@keyframes to_other_player {
+	0%   { transform: translate(0, 0); }
+	25%  { transform: translate(-10%, 0); }
+	100% { transform: translate(400%, 0); }
+}

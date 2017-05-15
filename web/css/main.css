@@ -1,0 +1,81 @@
+.html, body {
+	height: 100%;
+	width:  100%;
+	background-color: #AEA8D3;
+	font-family: 'Comfortaa';
+	overflow: hidden;
+}
+
+.hidden {
+	display: none !important;
+}
+
+.tips {
+	bottom: 0%;
+	height: 75px;
+	width:  100%;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+.tip_dimmer {
+	height: 100%;
+	width:  100%;
+	background-color: #FFFFFF;
+	opacity: 0.3;
+}
+
+.tip {
+	top: 30px;
+	margin: 0 auto;
+	white-space: nowrap;
+	padding-left: 100%;
+	font-size: larger;
+	color: black;
+	animation: marquee 20s linear infinite;
+}
+
+.game_element {
+	position: absolute;
+}
+
+.menu_button {
+	width: 250px;
+	height: 125px;
+	border-radius: 10px
+}
+.menu_button:active {
+	filter: brightness(80%);
+}
+.menu_button_word {
+	font-weight: bold;
+	font-size: 40px;
+	
+	margin-top: 18%;
+	text-align: center;
+}
+
+.create_button {
+	background-color: #3FC380;
+}
+.join_button {
+	background-color: #52B3D9;
+}
+
+.separator {
+	display: flex;
+}
+
+.to_you {
+	animation-name: to_own_player;
+	animation-duration: 1s;
+	animation-timing-function: linear;
+	animation-fill-mode: forwards;
+}
+
+.to_enemy {
+	animation-name: to_own_player;
+	animation-duration: 1s;
+	animation-timing-function: linear;
+	animation-fill-mode: forwards;
+}

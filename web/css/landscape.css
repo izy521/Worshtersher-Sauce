@@ -1,0 +1,79 @@
+.menu_button {
+	top: 30%;
+}
+
+.game_starter {
+	top: 5%;
+	left: 25%;
+	height: 75vh;
+	width: 50vw;
+	border: 1px solid black;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.code_area {
+	font-size: 50px;
+	width: 300px;
+	text-align: center;
+	font-family: 'Comfortaa';
+	/*Resetcss seems to be messing with the html, body area*/
+}
+
+.separator {
+	left: 41vw;
+	top: 38vh;
+}
+.left_top_hr {
+    height: 0px;
+    width: 75px;
+    margin-top: 10px;
+	margin-right: 10px;
+	border-style: solid;
+}
+.or_word {
+	font-weight: bold;
+	font-size: 30px;
+}
+.right_bottom_hr {
+	height: 0px;
+    width: 75px;
+    margin-top: 10px;
+	margin-left: 10px;
+	border-style: solid;
+}
+.join_button {
+	right: 0px;
+}
+
+.game {
+	height: 100%;
+	width: 100%;
+}
+
+.time {
+	font-weight: bold;
+	font-size: 4em;
+}
+
+.middle_area {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.player {
+	width: 75px;
+	height: 75px;
+	align-self: center;
+	background-image: url('/web/img/player.svg');
+}
+
+.current_word {
+	font-weight: bold;
+	font-size: 3em;
+	align-self: center;
+}

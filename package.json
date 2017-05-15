@@ -1,0 +1,33 @@
+{
+  "name": "worshtersher-sauce",
+  "version": "0.0.1",
+  "description": "An HTML5/Node.js game that requires you to say labyrinthine words correctly.",
+  "main": "server/app.js",
+  "engines": {
+    "node": ">7.10.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/izy521/Worshtersher-Sauce.git"
+  },
+  "keywords": [
+    "HTML5",
+    "Web",
+    "Audio",
+    "API",
+    "WebAudio",
+    "Game"
+  ],
+  "author": "izy521",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/izy521/Worshtersher-Sauce/issues"
+  },
+  "homepage": "https://github.com/izy521/Worshtersher-Sauce#readme",
+  "dependencies": {
+    "ws": "^2.3.1"
+  }
+}

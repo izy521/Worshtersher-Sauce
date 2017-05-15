@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Worshtersher Sauce</title>
+		<!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+		<meta name="viewport" content="user-scalable=0">
+		<link href="https://fonts.googleapis.com/css?family=Comfortaa:400,700" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="web/css/reset.css">
+		<link rel="stylesheet" type="text/css" href="web/css/animations.css">
+		<link rel="stylesheet" type="text/css" href="web/css/main.css">
+		<link rel="stylesheet" media="all and (orientation:landscape)" href="web/css/landscape.css">
+		<link rel="stylesheet" media="all and (orientation:portrait)" href="web/css/portrait.css">
+		<script src='web/js/main.js' defer></script>
+	</head>
+	<body>
+		<div class='game_element menu_item menu_button create_button'>
+			<p class='create menu_item menu_button_word'>Create</p>
+		</div>
+		<div class='game_element menu_item separator'>
+			<hr class='left_top_hr menu_item'>
+			<span class='or_word menu_item'>OR</span>
+			<hr class='right_bottom_hr menu_item'>
+		</div>
+		<div class='game_element menu_item menu_button join_button'>
+			<p class='join menu_item menu_button_word'>Join</p>
+		</div>
+		
+		<div class='game_element game_starter_item game_starter'>
+			<input class='game_element game_starter_item code_area' type='text' maxlength="6"/>
+			<div class='game_element game_starter_item info'></div>
+		</div>
+		
+		<div class='game_element game'>
+			<div class='game_element time_holder'>
+				<p class='game_element time'>59</p>
+			</div>
+			<div class='game_element middle_area'>
+				<div class='main_player player'></div>
+				<div class='current_word'>
+					worcestershire
+				</div>
+				<div class='other_player player'></div>
+			</div>
+		</div>
+		
+		<div class='game_element tips'>
+			<div class='game_element tip_dimmer'></div>
+			<span class='game_element tip'></span>
+		</div>
+	</body>
+</html>
